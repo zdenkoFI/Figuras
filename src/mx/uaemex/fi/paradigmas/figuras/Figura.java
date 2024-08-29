@@ -1,8 +1,10 @@
 package mx.uaemex.fi.paradigmas.figuras;
 
-public abstract class Figura {
+public interface Figura extends Comparable {
 
-    public abstract double perimetro();
-    public abstract double area();
+    double perimetro();
+    double area();
 
+    @Override
+    int compareTo(Object o);
 }

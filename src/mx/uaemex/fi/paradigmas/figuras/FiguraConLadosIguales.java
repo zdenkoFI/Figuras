@@ -1,6 +1,6 @@
 package mx.uaemex.fi.paradigmas.figuras;
 
-public abstract class FiguraConLadosIguales extends Figura{
+public abstract class FiguraConLadosIguales extends FIguraAbstracta{
 
     protected double lado;
     protected int numLados;

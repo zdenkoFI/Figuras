@@ -1,6 +1,6 @@
 package mx.uaemex.fi.paradigmas.figuras;
 
-public class Trapecio extends Figura {
+public class Trapecio extends FIguraAbstracta {
 
     private double baseMenor;
     private double baseMayor;
@@ -74,4 +74,5 @@ public class Trapecio extends Figura {
     public double area() {
         return (this.baseMenor + this.baseMayor/2)*this.altura;
     }
+
 }

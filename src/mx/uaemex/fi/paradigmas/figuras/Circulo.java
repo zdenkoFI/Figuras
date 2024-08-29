@@ -1,6 +1,6 @@
 package mx.uaemex.fi.paradigmas.figuras;
 
-public class Circulo extends Figura{
+public class Circulo extends FIguraAbstracta{
 
     private double radio;
 
@@ -32,4 +32,5 @@ public class Circulo extends Figura{
     public double area() {
         return Math.PI*Math.pow(this.radio, 2);
     }
+
 }

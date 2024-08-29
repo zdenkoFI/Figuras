@@ -1,6 +1,6 @@
 package mx.uaemex.fi.paradigmas.figuras;
 
-public class Rectangulo extends Figura {
+public class Rectangulo extends FIguraAbstracta {
 
     private double largo;
     private double ancho;
@@ -46,4 +46,5 @@ public class Rectangulo extends Figura {
     public double area() {
         return this.largo * this.ancho;
     }
+
 }
